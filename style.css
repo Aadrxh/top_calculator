@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#display{
+    height: 40px;
+    text-align: right;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+    border: solid black;
+    
+}
+button{
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width:fit-content;
+    border: solid black;
+    background-color: darkslateblue;
+}
+
+#nums,#operations{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 1.5px;
+}
+#nums{
+    width: 150px;
+    margin-right: 20px;
+    gap: 15px;
+}
+#operations{
+    flex-direction: column;
+}
