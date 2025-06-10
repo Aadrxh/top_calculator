@@ -34,7 +34,7 @@ buttons.addEventListener('click',function(e){
                     case '/': result=secondOperand!==0 ? firstOperand/secondOperand: 'Error';break;
                     case '%': result=secondOperand!==0 ? firstOperand%secondOperand: 'Error';break;
                 }
-                display.textContent=result
+                display.textContent=result.toFixed(9)
                 currentInput=result.toString()
                 firstOperand=null
                 operator=null
